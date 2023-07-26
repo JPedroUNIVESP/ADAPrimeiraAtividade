@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+.cabecalho{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    color:aliceblue;
+    height: 50px;
+}
+
+.menu {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+
+ul li {
+    margin-left: 15px; /* Aumente o valor para aumentar o espaçamento vertical */
+  }
+
+.logo {
+    font-size: 20px;
+    margin-right: 95px;
+
+}
+
+
+a {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: inherit; /* Mantém a cor do texto igual ao restante do conteúdo */
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding-top: 50px;
+    grid-gap: 5px;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 4;
+            height: 250px;
+          }
+
+    .div2 { grid-area: 2 / 2 / 4 / 4;}
+
+    .div3 { grid-area: 1 / 4 / 4 / 5;}
+    
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.first-div-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+
+}
+
+.div2 {
+    background-image: url('glasses.jpg');
+    background-size: cover;
+    position: relative;
+
+}
+
+.second-div-h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 15px;
+
+}
+
+.second-div-p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+}
+
+.second-div-div{
+    position: absolute;
+    bottom: 0;
+}
+
+.third-div-button{
+    font-family: 'Poppins', sans-serif;
+    position:absolute;
+    bottom: 40px;
+    right: 10px;
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.div3{
+    background-image: url('glasses2.png');
+    background-size: cover;
+    position: relative;
+
+}
+
+.second-div3-div{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.second-div3-h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 15px;
+
+}
+
+.second-div3-p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+}
+
+.second-sec, .third-sec, .fourth-sec {
+    font-weight: 800;
+    font-size: 45px;
+    justify-content: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.third-div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.fourth-div-button{
+    font-family: 'Poppins', sans-serif;
+    bottom: 40px;
+    min-width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+.fourth-sec{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.div-imagens-1, .div-imagens-2, .div-imagens-3, .div-imagens-4{
+    position: relative;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+
+.fourth-sec-button-1, .fourth-sec-button-2, .fourth-sec-button-3, .fourth-sec-button-4{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    bottom: 200px;
+    left: 20px;
+    min-width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.div-imagens-1{
+background-image: url('glass-1.png');
+background-size: cover;
+}
+
+.div-imagens-2{
+background-image: url('glass-2.png');
+background-size: cover;
+}
+
+.div-imagens-3{
+background-image: url('glass-2.png');
+background-size: cover;
+}
+
+.div-imagens-4{
+background-image: url('glass-2.png');
+background-size: cover;
+}
